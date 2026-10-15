@@ -5,7 +5,7 @@ import java.util.List;
 public class ArrayList {
 	public static void main(String[] args) {
 		//Creating a list of string using arrayList(Dynamic array)
-		List<String> list= new ArrayList<>();
+		List<String> list= ArrayList();
 		
 		//Adding elements to the ArrayList
 		
@@ -23,6 +23,11 @@ public class ArrayList {
 			System.out.println(lang);
 		}
 		
+	}
+
+	private static List<String> ArrayList() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

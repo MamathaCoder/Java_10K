@@ -10,24 +10,24 @@ public class ByteStreamdemo {
 		
 		try {
 			Object sourcefile;
-			sourceStream =new FileInputStream(sourcefile.txt);
+			//sourceStream =new FileInputStream(sourcefile.txt);
 			Object targetfile;
-			targetStream =new FileOutputStream(targetfile.txt);
+			//targetStream =new FileOutputStream(targetfile.txt);
 			
 			
 			//Reading source file and writing content to target file byte by byte
 			
 			boolean temp;
 			
-			while((temp=sourceStream.read()!=-1))targetStream.write(byte)temp);
+			//while((temp=sourceStream.read()!=-1))targetStream.write(byte)temp);
 			
 					
 		}
 		finally {
 			FileInputStream sourceStraem;
-			if (sourceStream !=null) sourceStraem.close();
+			//if (sourceStream !=null) sourceStraem.close();
 			FileInputStream targetStraem;
-			if (targetStream !=null) targetStraem.close();
+			//if (targetStream !=null) targetStraem.close();
 		
 		}
 	}
